@@ -155,8 +155,9 @@ a {
 
 /* --- Page Header --- */
 .home-page-header {
-    background-color: #000;
-    color: white;
+    /* background-color: #000; */
+    background: url('https://amsindia.co.in/wp-content/uploads/2025/04/aa4aaccf43.jpg');
+    color:rgb(0, 0, 0);
     padding: 60px 0;
     text-align: center;
     position: relative;
@@ -172,7 +173,7 @@ a {
     font-size: 1.5rem;
     font-weight: normal;
     display: inline-block;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid var(--primary-blue);
     padding-bottom: 5px;
     margin-bottom: 30px;
     text-align: left; 
@@ -473,7 +474,7 @@ footer {
 
         .breadcrumbs {
             font-size: 0.85rem;
-            color: #ddd;
+            color: #000000;
             display: flex;
             align-items: center;
             gap: 10px;
